@@ -11,7 +11,7 @@ tags:
 
 > 앞으로 블로그 글 작성을 위해 [GitHub Markdown](https://guides.github.com/features/mastering-markdown)을 참고하여 정리했습니다.
 
-# Markdown Syntax
+# Markdown Cheatsheet
 
 ## Headers
 
