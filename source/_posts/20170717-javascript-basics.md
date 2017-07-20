@@ -122,9 +122,9 @@ NaN == NaN        // false (not a number)
 
 Operator | Name
 ---------|------
-`&&`     | AND
-`||`     | OR
-`!`      | NOT
+&&       | AND
+{% raw %}||{% endraw %}     | OR
+!        | NOT
 
 ```javascript
 var x = 10;
@@ -676,6 +676,6 @@ for (var i=0; i < lis.length; i++) {
 ## Tips
 
 1. `<script type="text/javascript" src="script.js" async></script>`
-	- `<head>`안에서 `<script type="text/javascript" src="script.js"></script>`로 스크립트 파일을 불러오면 다 불러오기 전까지 다음 코드로 진행하지 않거나 HTML 엘레먼트를 선택하는 스크립트가 있다면 오류가 발생한다. 이를 보완하기 위해 `async`, `defer` 속성을 지원하게 되었으며 IE10 미만에서는 지원하지 않기 때문에 <body> 태그의 마지막 부분에서 스크립트 파일들을 호출하기도 한다.
+	- `<head>`안에서 `<script type="text/javascript" src="script.js"></script>`로 스크립트 파일을 불러오면 다 불러오기 전까지 다음 코드로 진행하지 않거나 HTML 엘리먼트를 선택하는 스크립트가 있다면 오류가 발생한다. 이를 보완하기 위해 `async`, `defer` 속성을 지원하게 되었으며 IE10 미만에서는 지원하지 않기 때문에 <body> 태그의 마지막 부분에서 스크립트 파일들을 호출하기도 한다.
 	- [Where should I put script tags in HTML markup?  (StackOverflow)](https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup)
 	- [Remove Render-Blocking JavaScript (Google Developers)](https://developers.google.com/speed/docs/insights/BlockingJS)
