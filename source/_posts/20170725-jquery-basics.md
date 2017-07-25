@@ -13,14 +13,14 @@ tags:
 
 > jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript. - [jQuery.com](http://jquery.com)
 
-- Why use jQuery?
+- **Why use jQuery?**
   - Fixes "broken" DOM API
   - Brevity and clarity
   - Ease of use
   - Cross-browser support
   - Ajax
   - Lot's of people use jQuery.
-- Why not use jQuery?
+- **Why not use jQuery?**
   - The DOM API is no longer "broken".
   - It doesn't do anything you can't do on your own.
   - It's an unnecessary dependency.
@@ -84,7 +84,7 @@ $("div:first-of-type").css("color", "pink");
 </div>
 ```
 
-Get and set combined text contents
+**Get and set combined text contents**
 
 ```javascript
 $("content").text();
@@ -101,7 +101,7 @@ $("li").text("Changed");
 // </div>
 ```
 
-Get and set HTML contents
+**Get and set HTML contents**
 
 ```javascript
 $("ul").html();
@@ -123,7 +123,7 @@ $("ul").html("<li>a new item</li>");
 <img src="http://www.gstatic.com/webp/gallery/1.jpg">
 ```
 
-Get and Set the value of an attribute for the first element.
+**Get and Set the value of an attribute for the first element.**
 
 ```javascript
 $("img").attr("src");
@@ -137,7 +137,7 @@ $("img").attr("title", "This is sample");
 - [attr() vs prop() (jQuery APi)](http://api.jquery.com/attr/)
   - To retrieve and change DOM properties such as the checked, selected, or disabled state of form elements, use the .prop() method. (related to boolean attributes)
 
-Get and set the values of the first form elements.
+**Get and set the values of the first form elements.**
 
 ```javascript
 $("input").val();
@@ -146,7 +146,7 @@ $("input").val("put something");
 
 ### Manipulating class
 
-Add and remove classes
+**Add and remove classes**
 
 ```javascript
 $("p").addClass("correct");
